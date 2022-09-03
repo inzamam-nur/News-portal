@@ -51,31 +51,37 @@
   </section>
 
 
-  <!-- short section -->
-  <section class="my-5 d-flex justify-content-between container">
-    <!-- left item -->
-    <div class="d-flex gap-3">
-      <h3>Short catagory </h3>
-      <div class="dropdown">
-        <a class="btn btn-light shadow-lg dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-          aria-expanded="false">
-          Sort by
-        </a>
 
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Defaults</a></li>
-          <li><a class="dropdown-item" href="#">Ascending_order</a></li>
-          <li><a class="dropdown-item" href="#">Discending-order</a></li>
-        </ul>
-      </div>
+
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <h3>Short catagory </h3>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+       
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            sort By
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Default</a></li>
+            <li><a class="dropdown-item" href="#"> Ascending</a></li>
+            <li><a class="dropdown-item" href="#"> Descending</a></li>
+          </a></li>
+          </ul>
+        </li>
+       
+      </ul>
+      <form class="d-flex" role="search">
+        <button class="btn btn-outline-success" type="submit">Trending</button>
+        <button class="btn btn-outline-success" type="submit">Top news</button>
+      </form>
     </div>
-
-    <!-- Hot  News -->
-    <div class="">
-      <div class="btn btn-success">Top News</div>
-      <div class="btn btn-light shadow-lg">Trending</div>
-    </div>
-
+  </div>
+</nav>
   </section>
   <hr>
   <!-- main -->

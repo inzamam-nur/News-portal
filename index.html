@@ -18,7 +18,7 @@
   <nav class="navbar bg-light pt-2 d-block d-md-block d-lg-flex d-xl-flex">
     <div class="container-fluid">
       <a class="navbar-brand">
-        <span class=""><span class="bg-success p-2 rounded font-bold text-white">Nur News 24</span> PORTAL</span>
+        <span class="">The Daily <span class="bg-success ml-1 p-2 rounded font-bold text-white"> Bangladesh</span>
       </a>
       <form class="d-flex" role="search">
         <span class="text-light mx-2 bg-success p-2 rounded ">NEWS </span>
@@ -28,7 +28,13 @@
     </div>
   </nav>
   <hr>
-  <section class=" my-2  p-2  rounded shadow-lg ">
+    <!-- header -->
+    <header class="my-4">
+        <div class="d-block d-md-flex justify-content-evenly gap-2" id="catagory-container">
+          <!-- catagory list   -->
+        </div>
+      </header>
+  <section class=" bg-light my-2  p-2  rounded shadow-lg ">
     <!-- spinner -->
     <div id="spinner" class="spinner-border d-none" role="status">
       <span class="visually-hidden">Loading...</span>
@@ -66,12 +72,16 @@
 
   </section>
   <hr>
-
+  <!-- main -->
+  <main class="my-4 container">
+    <div id="news-container" class="row row-cols-1 row-cols-md-1 row-cols-lg-1 g-4">
+      <!-- news card -->
+    </div>
   </main>
   
 
     </div>
-<script src="./js/news.js"></script>
+<script src="js/main.js"></script>
 <!-- all js links -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"

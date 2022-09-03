@@ -7,7 +7,7 @@ const loadCatagory = async()=>{
         displayCatagory(data.data.news_category);
     }
     catch(error){
-        console.log(error)
+        console.log(error);
     }
     
     }

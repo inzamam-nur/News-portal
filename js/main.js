@@ -19,7 +19,7 @@ const loadCatagory = async()=>{
         // console.log(catagory)
     const catagoryContainer = document.getElementById("catagory-container");
     const newDiv = document.createElement('div');
-    newDiv.classList.add('border','border-success','rounded','py-3','px-4','my-3')
+    newDiv.classList.add('border','border-success','rounded','py-3','px-3','my-3')
     newDiv.innerHTML=`
     <span onclick="catagoryDetail('${catagory.category_id}')">${catagory.category_name}</span>
     ` ;
